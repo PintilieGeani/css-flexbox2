@@ -1,0 +1,71 @@
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Interlinea al 20% */
+p{
+    line-height: 1.2;
+}
+
+/* Header */
+.header{
+    height: 80px;
+    /* debug */
+    background-color: orange;
+}
+
+/* footer */
+.footer{
+    padding: 50px;
+    /* debug */
+    height: 100px;
+    background-color: aqua;
+}
+
+/* main */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.col{
+    width: 20%;
+    /* debug */
+    background-color: rgb(125, 125, 238);
+    min-height: 250px;
+    margin: 0 20px;
+    
+}
+
+.col-large{
+    width: 55%;
+    /* debug */
+    background-color: lightcoral;
+    min-height: 350px;
+}
+
+.sidebar-navigation{
+    padding: 20px;
+    flex-direction: column;
+
+}
+.sidebar-navigation ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+
+}
+.sidebar-navigation ul li{
+    margin-bottom: 10px;
+}
